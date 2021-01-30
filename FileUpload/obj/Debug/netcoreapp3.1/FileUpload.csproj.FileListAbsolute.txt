@@ -1,8 +1,3 @@
-C:\Users\HP-PAVILION\Desktop\File Uploda Asp core Web Api #1\FileUpload\FileUpload\obj\Debug\netcoreapp3.1\FileUpload.csprojAssemblyReference.cache
-C:\Users\HP-PAVILION\Desktop\File Uploda Asp core Web Api #1\FileUpload\FileUpload\obj\Debug\netcoreapp3.1\FileUpload.AssemblyInfoInputs.cache
-C:\Users\HP-PAVILION\Desktop\File Uploda Asp core Web Api #1\FileUpload\FileUpload\obj\Debug\netcoreapp3.1\FileUpload.AssemblyInfo.cs
-C:\Users\HP-PAVILION\Desktop\File Uploda Asp core Web Api #1\FileUpload\FileUpload\obj\Debug\netcoreapp3.1\FileUpload.csproj.CoreCompileInputs.cache
-C:\Users\HP-PAVILION\Desktop\File Uploda Asp core Web Api #1\FileUpload\FileUpload\obj\Debug\netcoreapp3.1\FileUpload.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\HP-PAVILION\Desktop\File Uploda Asp core Web Api #1\FileUpload\FileUpload\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\HP-PAVILION\Desktop\File Uploda Asp core Web Api #1\FileUpload\FileUpload\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\HP-PAVILION\Desktop\File Uploda Asp core Web Api #1\FileUpload\FileUpload\bin\Debug\netcoreapp3.1\FileUpload.exe
@@ -11,6 +6,11 @@ C:\Users\HP-PAVILION\Desktop\File Uploda Asp core Web Api #1\FileUpload\FileUplo
 C:\Users\HP-PAVILION\Desktop\File Uploda Asp core Web Api #1\FileUpload\FileUpload\bin\Debug\netcoreapp3.1\FileUpload.runtimeconfig.dev.json
 C:\Users\HP-PAVILION\Desktop\File Uploda Asp core Web Api #1\FileUpload\FileUpload\bin\Debug\netcoreapp3.1\FileUpload.dll
 C:\Users\HP-PAVILION\Desktop\File Uploda Asp core Web Api #1\FileUpload\FileUpload\bin\Debug\netcoreapp3.1\FileUpload.pdb
+C:\Users\HP-PAVILION\Desktop\File Uploda Asp core Web Api #1\FileUpload\FileUpload\obj\Debug\netcoreapp3.1\FileUpload.csprojAssemblyReference.cache
+C:\Users\HP-PAVILION\Desktop\File Uploda Asp core Web Api #1\FileUpload\FileUpload\obj\Debug\netcoreapp3.1\FileUpload.AssemblyInfoInputs.cache
+C:\Users\HP-PAVILION\Desktop\File Uploda Asp core Web Api #1\FileUpload\FileUpload\obj\Debug\netcoreapp3.1\FileUpload.AssemblyInfo.cs
+C:\Users\HP-PAVILION\Desktop\File Uploda Asp core Web Api #1\FileUpload\FileUpload\obj\Debug\netcoreapp3.1\FileUpload.csproj.CoreCompileInputs.cache
+C:\Users\HP-PAVILION\Desktop\File Uploda Asp core Web Api #1\FileUpload\FileUpload\obj\Debug\netcoreapp3.1\FileUpload.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\HP-PAVILION\Desktop\File Uploda Asp core Web Api #1\FileUpload\FileUpload\obj\Debug\netcoreapp3.1\staticwebassets\FileUpload.StaticWebAssets.Manifest.cache
 C:\Users\HP-PAVILION\Desktop\File Uploda Asp core Web Api #1\FileUpload\FileUpload\obj\Debug\netcoreapp3.1\staticwebassets\FileUpload.StaticWebAssets.xml
 C:\Users\HP-PAVILION\Desktop\File Uploda Asp core Web Api #1\FileUpload\FileUpload\obj\Debug\netcoreapp3.1\scopedcss\bundle\FileUpload.styles.css

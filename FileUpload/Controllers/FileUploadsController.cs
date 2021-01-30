@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using FileUpload.VIewModel;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -34,6 +36,45 @@ namespace FileUpload.Controllers
         {
             _webHostEnvironment = webHostEnvironment;
          
+        }
+
+        [HttpPost]
+        public string Post([FromForm] ImageUpload objImageUpload)
+        {
+            try 
+            {
+                // Checking if file is empty or not?
+                if(objImageUpload.files.Length > 0)
+                {
+                    // defining basepath and contentpath for file.
+                    string path = _webHostEnvironment.WebRootPath + "\\Uploads\\";
+                    
+                    // checking rootpath & contentpath(Directory) is exist or not?
+                    if(!Directory.Exists(path))
+                    {
+                        Directory.CreateDirectory(path);
+                    }
+
+                    // Reading and writing files using FileStream. I need to create object of FileStream.
+                    // FileStream has four parameters (FileName, FilePath, FileMode, FileAccess)
+                    // Here files==ImageUpload.files
+                    using(FileStream fileStream = System.IO.File.Create(path + objImageUpload.files.FileName))
+                    {
+                        objImageUpload.files.CopyTo(fileStream);
+                        fileStream.Flush();
+                        return "File has been Uploaded";
+
+                    }
+                }
+                else
+                {
+                    return "Not Uploaded";
+                }
+            }
+            catch(Exception ex)
+            {
+                return ex.Message;
+            }
         }
          
     }

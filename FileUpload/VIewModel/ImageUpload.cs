@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Http;
 
 namespace FileUpload.VIewModel
 {
-    public class FileUpload
+    public class ImageUpload
     {
         /* Storage Scenarios:
             1.Database -- For small file uploads
@@ -22,6 +22,6 @@ namespace FileUpload.VIewModel
             2.Streaming -- The file is received from a multipart request and directly processed or saved by the app.
                           -> To upload large files. */
                         
-        public static IFormFile files { get; set; }
+        public IFormFile files { get; set; }
     }
 }
