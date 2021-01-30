@@ -39,7 +39,7 @@ namespace FileUpload.Controllers
         }
 
         [HttpPost]
-        public string Post([FromForm] ImageUpload objImageUpload)
+        public string Post([FromForm]ImageUpload objImageUpload)
         {
             try 
             {
